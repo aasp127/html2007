@@ -209,14 +209,14 @@ Your Playground (Make customizations and changes below)
 *****************************************************************/
 
 body {
-    background-color: #4a28f7; /* Change background color */
+    background-image:url(./assets/dfqyrkk-e63273bc-3b62-4b6e-a61a-0c4aad72d17b.gif);
 }
 
 /************************    navbar   ***************************/
 
 nav {
        background-color: #5719e8;
-       border-bottom: 2px solid #2942e6;
+       border-bottom: 2px solid #101e78;
 }
 
 nav img {
