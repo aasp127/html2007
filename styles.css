@@ -10,7 +10,7 @@ Styling and Sizing for elements. Do not modify this section
 
 /***********************    body structure   ********************/
 body {
-    font-family: Courier 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     margin: 0;
     padding: 0;
     }
@@ -110,8 +110,8 @@ nav ul {
 }
 
 .main-section section {
-    width: 80%;
-    padding: 10px;
+    width: 90%;
+    padding: 1px;
 }
 .main-section .posts {
     display: flex;
@@ -216,7 +216,7 @@ body {
 
 nav {
        background-image:url(./assets/zSW_4r.gif);
-       border-bottom: 2px solid #101e78;
+       border-bottom: 2px solid #020515;
 }
 
 nav img {
@@ -225,8 +225,9 @@ nav img {
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333333;
+    text-decoration:lawngreen;
+    background-color: aqua;
+    color: #2daa3e;
     font-weight: bold;
 }
 
