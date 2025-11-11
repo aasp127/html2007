@@ -121,7 +121,7 @@ nav ul {
 
 .main-section .posts div {
     align-self: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 /**********************    music iframe    **********************/
@@ -225,7 +225,7 @@ nav img {
 }
 
 nav ul li a {
-    text-decoration:rgb(219, 217, 224);
+    text-decoration:rgb(69, 53, 111);
     background-color: rgb(60, 0, 255);
     color: #e0ebf0;
     font-weight: bold;
