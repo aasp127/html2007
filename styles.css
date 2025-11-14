@@ -10,7 +10,7 @@ Styling and Sizing for elements. Do not modify this section
 
 /***********************    body structure   ********************/
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Courier New', Courier, monospace
     margin: 0;
     padding: 0;
     }
@@ -239,8 +239,9 @@ ul li {
 }
 
 ul li a {
-    text-decoration: none;
-    color: #333333;
+  text-decoration:rgb(69, 53, 111);
+    background-color: rgb(60, 0, 255);
+    color: #e0ebf0;
     font-weight: bold;
 }
 
@@ -254,6 +255,7 @@ ul li a {
 .bio-sidebar .links{
     border-bottom: #333333 dotted 2px;
 }
+
 
 /***********************    main styles   ***********************/
 
@@ -274,7 +276,12 @@ ul li a {
 
 /**********************    aboutme styles   *********************/
 .about-me .about-me-text *{
-    border:#333333 dotted 2px;
+
+   text-decoration:rgb(69, 53, 111);
+    background-color: rgb(0, 0, 0);
+    color: #e0ebf0;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace
 }
 
 /*********************    friends     *********************/
@@ -371,6 +378,7 @@ a:hover{
 	font-size: 20px;
 	animation: none;
 	text-shadow: none;
+    text-decoration-color: aliceblue;
 }
 
 @keyframes colorloop {
