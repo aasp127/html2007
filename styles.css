@@ -288,3 +288,96 @@ ul li a {
     width: 200px;
     height: 200px;
 }
+
+			@import url('https://fonts.googleapis.com/css?family=Barrio');
+@import url('https://fonts.googleapis.com/css?family=Life+Savers');
+
+body{
+	cursor: url(http://nathalielawhead.com/candybox/new_theme_images/IMG_SHAKETHAT_SKELETON_03.gif), auto;
+}
+
+/*main-inner*/
+.main-inner{
+	background-image: url("http://nathalielawhead.com/candybox/new_theme_images/img_background_fog.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*crisp image
+	image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;*/
+}
+
+a{
+	cursor: url(http://nathalielawhead.com/candybox/new_theme_images/IMG_SHAKETHAT_SKELETON_04.gif), auto;
+	transition: 0.5s;
+}
+a:hover{
+	background-image: url("http://nathalielawhead.com/candybox/new_theme_images/Fr0DPe.gif");
+	background-color: #0000FF;
+  color: white;
+}
+
+.blog-card-inner-inner{
+	/*display: inline;*/
+  /*background-color: rgba(0, 0, 0, .4);*/
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.7));
+}
+
+.nav-container, .menu-item-type-custom *{
+	/*background-image: url("http://nathalielawhead.com/candybox/new_theme_images/img_background_fog.gif");*/
+	font-family: 'Life Savers';
+  text-shadow: 1.2px 1px #FF00FF;
+	font-size: 25px;
+}
+
+/*turn header into fire and hide anything inside it*/
+.site-title{
+	/*z-index: 100;*/
+	position: fixed;
+	bottom: -480px;
+	right: -530px;
+	width: 824px;
+	height: 518px;
+	background-image: url("http://nathalielawhead.com/candybox/new_theme_images/IMG_FIRE_SMALL.gif");
+	background-color: rgba(255, 0, 0, 0);
+	pointer-events: none;
+	
+	/* Hide the text. */
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.entry-title *{
+	/*border-image: url('http://dev.alienmelon.com/blog/new_theme_images/Fr0DPe.gif');
+  border-image-slice: 4;
+  border-image-repeat: round;
+  padding: 5px;*/
+	font-family: 'Barrio';
+	text-shadow: 1.2px 1px #FF00FF;
+	animation: colorloop 20s infinite;
+}
+
+.more-link{
+	font-family: 'Life Savers';
+  text-shadow: 1.2px 1px #FF00FF;
+	font-size: 25px;
+}
+
+/*featured post*/
+.widget_neliofp_widget *{
+	font-family: 'Life Savers';
+	font-size: 20px;
+	animation: none;
+	text-shadow: none;
+}
+
+@keyframes colorloop {
+  0% { background-color: #FF00FF; }
+  20% { background-color: #FF99FF; }
+  40% { background-color: #CC00FF; }
+  60% { background-color: #CC99FF; }
+  80% { background-color: #9900FF; }
+  100% { background-color: #FF00FF; }
+}		
