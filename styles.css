@@ -107,6 +107,11 @@ nav ul {
     padding: 25px;
     margin: 10px;
     max-width: ;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:rgb(193, 212, 223);
+    color: #503ce4;
+    font-weight: bold;
+    
 }
 
 .main-section section {
@@ -117,6 +122,11 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:rgb(166, 181, 229);
+    color: #503ce4;
+    font-weight: bold;
+
 }
 
 .main-section .posts div {
@@ -253,7 +263,7 @@ ul li a {
 
 .bio-sidebar .bio,
 .bio-sidebar .links{
-    border-bottom: #333333 dotted 2px;
+    border-bottom: ;
 }
 
 
@@ -271,7 +281,7 @@ ul li a {
 /************************    bio styles   ***********************/
 
 .bio img {
-    border:#333333 dotted 2px;
+    border: 
 }
 
 /**********************    aboutme styles   *********************/
